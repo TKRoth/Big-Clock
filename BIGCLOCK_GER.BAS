@@ -30,7 +30,7 @@
   300 REM * Zeitabfrage *
   310 REM ***************
   320 REM
-  330 MODE 2:CLS
+  330 MODE 8:CLS
   340 COLOUR 10:INPUT "Zeit stellen ",S$
   350 IF S$="N" OR S$="n" THEN 520
   360 CLS

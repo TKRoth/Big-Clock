@@ -1,6 +1,6 @@
    10 REM *****************************
    20 REM **                         **
-   30 REM **      Digital clock      **
+   30 REM **      Digitak clock      **
    40 REM **                         **
    50 REM 99            by           **
    60 REM **                         **
@@ -30,7 +30,7 @@
   300 REM * Get time *
   310 REM ************
   320 REM
-  330 MODE 2:CLS
+  330 MODE 8:CLS
   340 COLOUR 10:INPUT "Set time  ",S$
   350 IF S$="N" OR S$="n" THEN 520
   360 CLS
